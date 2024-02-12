@@ -13,7 +13,7 @@ This code snippet executes the following tasks:
 1. Imports the ExchangeOnlineManagement module.
 2. Define `$mailboxGuid` based on the `selectedMailbox` data source input `$datasource.selectedMailbox.Guid`
 3. Creates a session to Exchange Online.
-4. List all recipients in Exchange Online with `FullAccess` permissions to the mailbox using the API call: [Get-EXOMailboxPermission](https://learn.microsoft.com/en-us/powershell/module/exchange/get-exomailboxpermission?view=exchange-ps)
+4. List all recipients in Exchange Online with `FullAccess` permissions to the mailbox using the cmdlet: [Get-EXOMailboxPermission](https://learn.microsoft.com/en-us/powershell/module/exchange/get-exomailboxpermission?view=exchange-ps)
 5. Return a hash table for each user account using the `Write-Output` cmdlet.
 
 > To view an example of the data source output, please refer to the JSON code pasted below.
