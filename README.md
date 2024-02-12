@@ -1,4 +1,4 @@
-# HelloID-Task-SA-Source-ExchangeOnline-MailboxSearch
+# HelloID-Task-SA-Source-ExchangeOnline-MailboxGetFullAccessPermissions
 
 ## Prerequisites
 - [ ] This script uses the Exchange Online Management PowerShell Module and requires an App Registration with App permissions:
